@@ -3,7 +3,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
-@media only screen and (orientation:landscape) {
+@media (min-width:400px) and (min-width:600px) and (min-width:960px)  {
     ul { overflow: hidden; }
     li {
         float: left;
@@ -13,7 +13,6 @@ html {
     }
     li:last-child { border-right-width: 0; }
 }
-
 ul, li {
   margin: 0;
   padding: 0;
@@ -49,4 +48,21 @@ background: black url('../img/1.jpg');
     line-height: 1;
     height: 229px;
     text-align: left;
+}
+.shadow1 {
+    font-size: 80px;
+    text-shadow:
+    0 -2px 3px #FFF,
+    0 -4px 3px #AAA,
+    0 -6px 6px #666,
+    0 -8px 9px #000;
+}
+.shadow2 {
+    font-size: 80px;
+    color: #FFF;
+    text-shadow:
+    0 2px rgba(0,0,0,0.4),
+    0 4px rgba(0,0,0,0.4),
+    0 6px rgba(0,0,0,0.4),
+    0 8px 0 rgba(0,0,0,0.4);
 }

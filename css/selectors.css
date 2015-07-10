@@ -1,0 +1,74 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+@media (min-width:400px) and (min-width:600px) and (min-width:960px)  {
+    ul { overflow: hidden; }
+    li {
+        float: left;
+        border-bottom-width: 0;
+        border-right: 1px solid black;
+        width: 20%;
+    }
+    li:last-child { border-right-width: 0; }
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  border: 1px solid black;
+  list-style: none;
+}
+li {
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    color: black;
+    font: 14px/20px 'Lucida Grande',Helvetica,Verdana;
+    padding: 5px 0;
+    text-align: center;
+}
+li:last-child { border-bottom-width: 0; }
+i a {
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 1em;
+    display: inline-block;
+    padding-left: 1.2em;
+}
+a[href^='mailto'] { background-image: url('../img/email.svg'); }
+a[href^='pdf'] { background-image: url('../img/pdf.svg'); }
+
+
+
+container div {
+    padding: 0.75em 0.75em 0;
+ }
+
+h1{
+background: black url('../img/1.jpg');
+    box-sizing: border-box;
+    color: black;
+    font-size: 3em;
+    line-height: 1;
+    height: 229px;
+    text-align: left;
+}
+.shadow1 {
+    font-size: 80px;
+    text-shadow:
+    0 -2px 3px #FFF,
+    0 -4px 3px #AAA,
+    0 -6px 6px #666,
+    0 -8px 9px #000;
+}
+.shadow2 {
+    font-size: 80px;
+    color: #FFF;
+    text-shadow:
+    0 2px rgba(0,0,0,0.4),
+    0 4px rgba(0,0,0,0.4),
+    0 6px rgba(0,0,0,0.4),
+    0 8px 0 rgba(0,0,0,0.4);
+}
